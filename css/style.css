@@ -1,0 +1,36 @@
+
+body{
+	border-style: solid;
+	border-width: 40px;
+	border-top-width: 30px;
+	border-color: white;
+}
+body,div,ul,li,a,a:visited{
+	font-family: 'Century Gothic';
+	font-size: 24px;
+	text-decoration: none !important;
+	color: #000000;
+}
+.container{
+	width: 100%;
+	padding-top: 20px;
+}
+.navbar-default{
+	background: none !important; 
+  	border: 0 !important;
+  	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	float: right;
+}
+.brand-wrap{
+	width: 40%;
+	float: left !important;
+}
+.navbar-wrap{
+	padding-top: 140px;
+	width: 60%;
+	min-height: 202px;
+}
+a:hover{
+	color: black;
+}
