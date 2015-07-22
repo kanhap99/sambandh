@@ -1,31 +1,102 @@
 
 body{
+	background-image: url("img/bg.png");
 	border-style: solid;
 	border-left-width: 10px;
 	border-right-width: 10px;
 	border-top-width: 25px;
 	border-color: white;
+	font-family: sans-serif;
+	font-size: 12pt; color: #444;
+	line-height: 1.5em;
 }
-body,div,ul,li,a,a:visited{
+body,div,ul,li,a,a:visited, .container{
 	font-family: 'Century Gothic';
 	font-size: 20px;
 	text-decoration: none !important;
-	color: black;
-}
-/*For the entire navbar container*/
-#nav-wrap{
-	padding-top: 20px;
-	margin: auto;
-}
-ul{
-	width: 100%;
-}
-a .sf-with-ul{
-	background-color: white;
-}
-.navbar-collapse{
-	padding-left: 0px;
+	color: #000;
 }
 #brand-wrap{
-	text-align:center;
+	text-align: center;
+	padding-bottom: 60px;
+	border-style: solid;
+	border-color: white;
+	border-right-width:300px;
+	border-left-width:300px;
+}
+#slogan {
+	font-size: 15px;
+	font-color: black;
+}
+#main-nav ul {
+	list-style: none; margin: 0;
+	padding: 0;
+}
+/*#main-nav ul li { display: inline-block; margin: 0 1em 0 1em; padding: 0.35em 0.75em 0.35em 0.75em; border-radius: 0.5em; }*/
+/*#main-nav ul li.active {
+	background: #999;
+}
+#main-nav ul li.active a {
+	color: #fff;
+	text-decoration: none;
+}*/
+
+/* A single menu */
+.dropotron {
+	background: #444;
+	border-radius: 0.5em;
+	list-style: none;
+	margin: 0;
+	min-width: 10em;
+	padding: 0.75em 1em 0.75em 1em;
+}
+.dropotron > li {
+	border-top: solid 1px;
+	margin: 0;
+	padding: 0;
+}
+.dropotron > li:first-child {
+	border-top: 0;
+}
+.dropotron > li > a {
+	color: #ccc;
+	display: block;
+	padding: 0.5em 0 0.5em 0;
+	text-decoration: none;
+}
+/*.dropotron > li.active > a, .dropotron > li:hover > a {
+	color: #fff;
+}*/
+
+/* Only applies to top level ("level-0") menus */
+.dropotron.level-0 {
+	margin-top: 1.25em;
+}
+.dropotron.level-0:before { content: '';
+	position: absolute;
+	border-bottom: solid 0.5em #444;
+	border-left: solid 0.5em transparent;
+	border-right: solid 0.5em transparent;
+	top: -0.5em;
+}
+
+#slide{
+	margin-left: 45px;
+	border: solid 1px;
+	border-color: black;
+}
+.caret-right {
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    border-left: 4px solid;
+    display: inline-block;
+    height: 0;
+    opacity: 0.3;
+    vertical-align: top;
+    width: 0;
+}
+ul > .sub-option {
+	list-style: none;
+	border-bottom: solid 2px;
+	border-color: #A8DE6A;
 }
